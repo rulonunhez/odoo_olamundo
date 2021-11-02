@@ -6,7 +6,7 @@ class olamundo(models.Model):
      _name = 'odoo_olamundo.olamundo'
      _description = 'Exemplo de olamundo'
 
-     name = fields.Char(string = 'Ola Mundo')
+     name = fields.Char(string = 'Ola Mundo ')
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
